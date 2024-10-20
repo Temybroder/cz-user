@@ -1,18 +1,18 @@
-import MainNav from './main-nav';
-import MobileNavbar from './mobile-nav';
+import DesktopNav from "../app/(landing-page)/components/desktop-nav";
+import MobileNav from "./mobile-nav";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
     <>
       <div className="md:hidden">
-        <MobileNavbar />
+        <MobileNav />
       </div>
 
       <div className="hidden md:block">
-        <MainNav />
+        <DesktopNav />
       </div>
     </>
   );
 };
 
-export default Navbar;
+export default Navbar2;

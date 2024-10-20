@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import Navbar2 from "./(landing-page)/components/navbar";
+import Navbar2 from "../components/navbar";
 
 const archivo = localFont({
   src: [
