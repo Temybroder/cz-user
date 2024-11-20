@@ -8,6 +8,7 @@ import {
   TwitterIcon,
   LinkedinIcon,
 } from "@/app/icons";
+import { MapPinHouse, PhoneIcon } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -49,6 +50,19 @@ const Footer = () => {
                     </Link>
                   </div>
                 </ul>
+                <div className="text-white">
+                  <div className="mb-3 flex items-center gap-2">
+                    <PhoneIcon className="h-5 w-5" />
+                    <p className="text-sm">+2348083019993</p>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <MapPinHouse className="h-5 w-5" />
+                    <p className="text-sm">
+                      4, Deji Olamiju street, Gbagada, Lagos State.
+                    </p>
+                  </div>
+                </div>
               </FooterColumn>
             </div>
           </div>
