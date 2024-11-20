@@ -28,7 +28,7 @@ const Footer = () => {
 
             <div className="sm:mb-20">
               <FooterColumn title={SOCIALS.title}>
-                <ul className="regular-14 mb-12 flex flex-row gap-2 text-white md:mb-0">
+                <ul className="regular-14 mb-2 flex flex-row gap-2 text-white md:mb-0">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white">
                     <Link href="/" className="">
                       <FacebookIcon width={20} height={20} className="" />
@@ -50,7 +50,7 @@ const Footer = () => {
                     </Link>
                   </div>
                 </ul>
-                <div className="text-white">
+                <div className="mb-8 text-white">
                   <div className="mb-3 flex items-center gap-2">
                     <PhoneIcon className="h-5 w-5" />
                     <p className="text-sm">+2348083019993</p>
