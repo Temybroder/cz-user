@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className="mb-8 text-white">
                   <div className="mb-3 flex items-center gap-2">
                     <PhoneIcon className="h-5 w-5" />
-                    <p className="text-sm">+2348083019993</p>
+                    <p className="text-sm tracking-wider">+234 808 301 9993</p>
                   </div>
 
                   <div className="flex items-center gap-2">
