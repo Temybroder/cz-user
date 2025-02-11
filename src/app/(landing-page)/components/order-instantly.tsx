@@ -41,7 +41,7 @@ const OrderInstantly = () => {
             alt="small iphone"
             width={260}
             height={272}
-            className="absolute -bottom-4 -left-7 z-30 md:bottom-4 lg:-bottom-8 lg:left-40"
+            className="absolute -bottom-4 -left-7 z-30 md:bottom-4 lg:-bottom-8 lg:left-56"
           />
         </div>
       </div>

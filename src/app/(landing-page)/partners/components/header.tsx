@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="">
+    <header className="container lg:px-20">
       <div className="flex flex-col items-center rounded-lg bg-white md:flex-row md:justify-between">
         <div className="grid place-items-center md:max-w-[641px] md:place-items-start">
           <Button className="mb-4 rounded-[20px] bg-[#231F20] text-xs font-medium text-white md:mb-5 md:text-base">
@@ -47,10 +47,8 @@ const Header = () => {
 
         <div className="mt-8 md:mt-0">
           <div className="relative">
-            <div className="absolute -left-4 top-0 hidden h-full w-2 rounded-l-3xl bg-gradient-to-b from-[#E30000] to-[#FFB31E] lg:block"></div>
-
             <Image
-              src="/images/partners/partner.png"
+              src="/images/partners/partner-image.png"
               alt="Delivery man"
               width={234}
               height={275}

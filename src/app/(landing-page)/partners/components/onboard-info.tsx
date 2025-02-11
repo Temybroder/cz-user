@@ -22,7 +22,7 @@ const onboardInfo = [
 
 const OnboardInfo = () => {
   return (
-    <div className="">
+    <section className="container lg:px-20">
       <span className="mb-[14px] inline-block rounded-3xl bg-[#231F20] px-3 py-1 text-xs font-medium text-white md:mb-5 md:text-base">
         How it works
       </span>
@@ -53,7 +53,7 @@ const OnboardInfo = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

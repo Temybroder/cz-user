@@ -8,26 +8,30 @@ import Image from "next/image";
 
 const faqas = [
   {
-    title: "What is Conzooming?",
-    content: " Yes. It adheres to the WAI-ARIA design pattern.",
+    title: "How is Conzooming different from other delivery apps and services?",
+    content:
+      "Conzooming addresses the pain-points of letting our Conzoomers (customers) have the power to decide how their food is prepared. We also don't just claim speedy delivery, we deliver ultra-fast, and at the best rates.",
   },
   {
-    title: "How does Conzooming work?",
-    content: " Yes. It adheres to the WAI-ARIA design pattern.",
+    title: "How does Conzooming personalise my meals?",
+    content:
+      "We use your nutritional health profile where you can specify things like allergies and preferences, to curate meal options.",
   },
   {
-    title: "What is Meal plan?",
-    content: " Yes. It adheres to the WAI-ARIA design pattern.",
+    title: "How does Conzooming subscription work?",
+    content:
+      "Our subscription allows you to plan for your food needs ahead of time on a weekly basis. You can choose your meals or allow our system recommend best meals.",
   },
   {
-    title: "How long will it take to get my order delivered?",
-    content: " Yes. It adheres to the WAI-ARIA design pattern.",
+    title: "How are delivery fees calculated?",
+    content:
+      "Delivery fees are based on distance, order size, and real-time delivery conditions.",
   },
 ];
 
 const Faqs = () => {
   return (
-    <section>
+    <section className="container lg:px-20">
       <p className="mb-4 h-10 w-[66px] rounded-xl bg-[#FEF6EC] p-[10px] text-lg font-medium text-[#231F20]">
         FAQs
       </p>
@@ -59,7 +63,7 @@ const Faqs = () => {
                   value={`item-${index}`}
                   className="border-b-0"
                 >
-                  <AccordionTrigger className="mb-[14px] rounded-3xl bg-[#FEF1F1] py-[17.5px] pl-5 pr-4 text-xs text-[#231F20] hover:no-underline md:text-xl">
+                  <AccordionTrigger className="mb-[14px] rounded-3xl bg-[#FEF1F1] py-[17.5px] pl-5 pr-4 text-xs text-[#231F20] hover:no-underline md:text-base">
                     {faq.title}
                   </AccordionTrigger>
                   <AccordionContent>{faq.content}</AccordionContent>

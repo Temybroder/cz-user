@@ -16,7 +16,7 @@ const DesktopNav = () => {
   const router = useRouter();
 
   return (
-    <nav className="px-5 py-4 md:pb-10 lg:px-[72.5px]">
+    <nav className="container py-4 md:pb-10 lg:px-20">
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center lg:mr-auto">
           <Link href="/conzooming">

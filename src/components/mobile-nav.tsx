@@ -3,15 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { ChevronDown, ChevronRight, Menu, X } from "lucide-react";
+import { ChevronRight, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +15,7 @@ const MobileNav = () => {
   return (
     <nav
       className={cn(
-        "relative px-5 py-4 md:pb-10 lg:px-[72.5px]",
+        "container relative py-4",
         isOpen && "h-screen overflow-hidden",
       )}
     >

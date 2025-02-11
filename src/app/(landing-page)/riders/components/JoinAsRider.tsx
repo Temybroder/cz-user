@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const JoinAsRider = () => {
   return (
-    <section className="text-[#231F20]">
+    <section className="container text-[#231F20] lg:px-20">
       <div className="grid place-items-center md:place-items-start">
         <h2 className="mb-8 w-[180px] text-center text-2xl font-bold md:w-[550px] md:text-left md:text-5xl">
           Why you should join Conzooming as a rider

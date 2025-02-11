@@ -10,15 +10,15 @@ import RiderRequirement from "./components/rider-requirements";
 const RidersPage = () => {
   return (
     <main>
-      <div className="mb-[74px] mt-[52px] px-5 md:px-20">
+      <div className="mb-[74px] mt-[52px]">
         <Header />
       </div>
 
-      <div className="mb-[58px] px-5 md:mb-20 md:px-20">
+      <div className="mb-[58px] md:mb-20">
         <JoinAsRider />
       </div>
 
-      <div className="mb-[58px] px-5 md:mb-20 md:px-20">
+      <div className="mb-[58px] md:mb-20">
         <OnboardInfo />
       </div>
 

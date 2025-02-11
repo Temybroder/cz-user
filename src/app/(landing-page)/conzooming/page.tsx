@@ -9,13 +9,15 @@ import WhyConzooming from "./components/why-conzooming";
 const LandingPage = () => {
   return (
     <>
-      <Header />
+      <div className="mb-14">
+        <Header />
+      </div>
 
-      <div className="mb-[70px] grid place-items-center md:mb-[118px]">
+      <div className="mb-[70px] md:mb-[118px]">
         <ForEveryone />
       </div>
 
-      <div className="mb-[65px] grid place-items-center px-5 md:mb-[88px] md:px-[60px]">
+      <div className="mb-[65px] md:mb-[88px]">
         <WhyConzooming />
       </div>
 
@@ -27,13 +29,11 @@ const LandingPage = () => {
         <Consumables />
       </div>
 
-      <div className="mb-[52px] grid place-items-center md:mb-20 md:px-11 lg:px-48">
+      <div className="mb-[52px] grid place-items-center md:mb-20 lg:px-20">
         <OrderInstantly />
       </div>
 
-      <div className="px-5 md:px-20">
-        <Faqs />
-      </div>
+      <Faqs />
     </>
   );
 };

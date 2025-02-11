@@ -29,49 +29,60 @@ const forEveryone = [
 
 const ForEveryone = () => {
   return (
-    <section className="relative -mt-[90px] grid place-items-center rounded-t-3xl bg-white px-2 pt-10 md:-mt-[18px] md:w-[85%]">
-      <h2 className="mb-7 w-[270px] text-center text-[1.75rem] font-bold text-[#231F20] md:mb-14 md:w-[450px] md:px-10 md:text-5xl lg:w-[40%]">
-        For Everyone - From Vendor to doorstep
-      </h2>
+    <section>
+      <div className="container grid place-items-center lg:px-20">
+        <div className="relative grid place-items-center rounded-t-3xl bg-white pt-10">
+          <h2 className="mb-7 w-[270px] text-center text-[1.75rem] font-bold text-[#231F20] md:mb-14 md:w-[450px] md:px-10 md:text-5xl lg:w-[40%]">
+            For Everyone - From Vendor to doorstep
+          </h2>
 
-      <div className="grid place-items-center gap-5 md:grid-cols-3">
-        {forEveryone.map((everyone) => (
-          <div
-            key={everyone.title}
-            className="min-w-[250px] rounded-3xl border-[1px] border-[#EFF0F0]"
-          >
-            <div
-              className="mb-5 grid place-items-center rounded-t-3xl px-16 pt-[22px]"
-              style={{ backgroundColor: everyone.bgColor }}
-            >
-              <Image
-                src={everyone.image}
-                alt="a phone"
-                width={208}
-                height={373}
-              />
-            </div>
-
-            <div className="px-5">
-              <h3 className="mb-2 whitespace-nowrap text-left text-2xl font-bold text-[#231F20] md:text-[1.75rem]">
-                {everyone.title}
-              </h3>
-              <p className="text-xs text-[#AEB2B2] md:text-base">
-                {everyone.description}
-              </p>
-
-              <div className="flex gap-2 py-6">
-                <div className="grid h-8 w-8 place-items-center rounded-full bg-[#231F20]">
-                  <GooglePlaytoreIcon width={14} height={18.47} />
+          <div className="grid place-items-center gap-5 md:grid-cols-3">
+            {forEveryone.map((everyone) => (
+              <div
+                key={everyone.title}
+                className="w-full min-w-[220px] rounded-3xl border-[1px] border-[#EFF0F0]"
+              >
+                <div
+                  className="relative mb-5 grid w-full place-items-center rounded-t-3xl px-16 pt-[22px]"
+                  style={{ backgroundColor: everyone.bgColor }}
+                >
+                  <Image
+                    src={everyone.image}
+                    alt="a phone"
+                    width={0}
+                    height={0}
+                    sizes="(max-width: 768px) 100vw, 1200px"
+                    className="mx-auto h-auto w-[203px] object-cover"
+                    quality={100}
+                  />
                 </div>
 
-                <div className="grid h-8 w-8 place-items-center rounded-full bg-[#231F20]">
-                  <AppleIcon width={18} height={22} className="fill-white" />
+                <div className="px-5">
+                  <h3 className="mb-2 whitespace-nowrap text-wrap text-left text-2xl font-bold text-[#231F20] md:text-[1.75rem]">
+                    {everyone.title}
+                  </h3>
+                  <p className="text-xs text-[#AEB2B2] md:text-base">
+                    {everyone.description}
+                  </p>
+
+                  <div className="flex gap-2 py-6">
+                    <div className="grid h-8 w-8 place-items-center rounded-full bg-[#231F20]">
+                      <GooglePlaytoreIcon width={14} height={18.47} />
+                    </div>
+
+                    <div className="grid h-8 w-8 place-items-center rounded-full bg-[#231F20]">
+                      <AppleIcon
+                        width={18}
+                        height={22}
+                        className="fill-white"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
 
       <div className="relative -mb-3 mt-10 h-3 w-full rounded-b-3xl bg-white"></div>

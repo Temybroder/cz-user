@@ -22,10 +22,12 @@ const onboardInfo = [
 
 const OnboardInfo = () => {
   return (
-    <div>
-      <h3 className="mb-12 text-center text-2xl font-bold text-[#231F20] md:text-left md:text-5xl">
-        Get started easily in 3 steps
-      </h3>
+    <section className="container lg:px-20">
+      <div className="flex justify-center">
+        <h3 className="mb-12 text-center text-2xl font-bold text-[#231F20] md:text-5xl lg:w-[450px]">
+          Get started easily in 3 steps
+        </h3>
+      </div>
 
       <div className="grid grid-cols-1 gap-8 text-[#231F20] md:grid-cols-3">
         {onboardInfo.map((item, index) => (
@@ -49,7 +51,7 @@ const OnboardInfo = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

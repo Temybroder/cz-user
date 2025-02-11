@@ -18,9 +18,9 @@ const Grow = () => {
 
       <div className="flex flex-col gap-9 md:flex-row md:justify-between">
         <div className="flex flex-grow flex-col rounded-3xl border-[1px] border-[#EFF0F0] lg:w-[512px]">
-          <div className="flex h-32 w-full items-center justify-center rounded-t-3xl bg-[#FEF6EC]">
+          <div className="flex h-32 w-full items-center justify-center rounded-t-3xl bg-[#FFBC66]">
             <Image
-              src="/images/landing-page/money-tree.png"
+              src="/images/landing-page/savings-hand.png"
               alt="Growth Chart"
               width={144}
               height={202}
@@ -32,7 +32,7 @@ const Grow = () => {
             <h3 className="mb-2 text-xl font-bold text-[#231F20] md:text-[1.75rem]">
               Serve more, Earn more
             </h3>
-            <p className="mb-7 text-xs text-[#AEB2B2] md:w-[295px] md:text-base">
+            <p className="mb-7 text-xs text-[#AEB2B2] md:w-[300px] md:text-base">
               Together, we expand your service's reach, connecting you with more
               people and creating greater opportunities for growth.
             </p>
@@ -64,7 +64,7 @@ const Grow = () => {
         <div className="flex flex-grow flex-col rounded-3xl border-[1px] border-[#EFF0F0] lg:w-[512px]">
           <div className="flex h-32 w-full items-center justify-center rounded-t-3xl bg-[#FF2424]">
             <img
-              src="/images/landing-page/coin-smile-mobile.png"
+              src="/images/landing-page/laughing-emoji.png"
               alt="Smiley Coin"
               width={144}
               height={202}
@@ -76,7 +76,7 @@ const Grow = () => {
             <h3 className="mb-2 text-xl font-bold text-[#231F20] md:text-[1.75rem]">
               Deliver Smiles everyday
             </h3>
-            <p className="mb-7 text-xs text-[#AEB2B2] md:w-[295px] md:text-base">
+            <p className="mb-7 text-xs text-[#AEB2B2] md:text-base lg:w-[295px]">
               Join us and turn every mile into an opportunity, making a
               difference with each journey you take.
             </p>

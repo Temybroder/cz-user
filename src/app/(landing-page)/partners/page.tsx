@@ -8,15 +8,15 @@ import PartnerWithConzooming from "./components/partner-with-conzooming2";
 const PartnersPage = () => {
   return (
     <main>
-      <div className="mb-[74px] mt-[52px] px-5 md:px-20">
+      <div className="mb-[74px] mt-[52px]">
         <Header />
       </div>
 
-      <div className="mb-[58px] px-5 md:mb-20 md:px-20">
+      <div className="mb-[58px] md:mb-20">
         <PartnerWithConzooming />
       </div>
 
-      <div className="mb-[58px] px-5 md:mb-20 md:px-20">
+      <div className="mb-[58px] px-5 md:mb-20">
         <OnboardInfo />
       </div>
 
@@ -24,13 +24,11 @@ const PartnersPage = () => {
         <Grow />
       </div>
 
-      <div className="mb-[52px] grid place-items-center md:mb-20 md:px-11 lg:px-48">
+      <div className="mb-[52px] grid place-items-center md:mb-20 md:px-11 lg:px-20">
         <OrderInstantly />
       </div>
 
-      <div className="px-5 md:px-20">
-        <Faqs />
-      </div>
+      <Faqs />
     </main>
   );
 };

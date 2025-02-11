@@ -4,7 +4,7 @@ import MobileNav from "./mobile-nav";
 const Navbar2 = () => {
   return (
     <>
-      <div className="md:hidden">
+      <div className="mb-[43px] md:hidden">
         <MobileNav />
       </div>
 

@@ -11,15 +11,15 @@ const AboutUsPage = () => {
         <Header />
       </div>
 
-      <div className="mb-[47px] px-5 md:mb-[88px] md:px-[60px]">
+      <div className="mb-[47px] md:mb-[88px]">
         <Mission />
       </div>
 
-      <div className="mb-36">
+      <div className="my-[88px]">
         <CoreValues />
       </div>
 
-      <div className="mb-[52px] grid place-items-center md:mb-20 md:px-11 lg:px-48">
+      <div className="mb-[52px] grid place-items-center md:mb-20 lg:px-20">
         <OrderInstantly />
       </div>
 
